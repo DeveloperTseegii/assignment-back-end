@@ -19,6 +19,10 @@ const BookSchema = new Schema({
          type: String,
          required:[true,"Fill the author"]
      },
+     publisher: {
+         type: String,
+        required:[true,"Fill the date"]
+     },
      published_date: {
          type: Date,
         required:[true,"Fill the date"]
